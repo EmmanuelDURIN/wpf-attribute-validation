@@ -1,0 +1,24 @@
+#Ignore files created by Visual Studio
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.g.i.cs
+
+*/[Oo]bj/
+*/[Bb]in/
+*/[Bb]ld/
+
+packages
+
+ipch
+**/[Oo]bj
+**/[Bb]in
+
+/[Bb]in
+
+[Bb]in
+
+./[Bb]in
+
+*.pubxml.user
