@@ -1,4 +1,4 @@
-This is a simple WPF sample that makes validation based on Annotations.
+**This is a simple WPF sample that makes validation based on Annotations.**
 
 WPF makes a good job of providing data binding between business objets/Viewmodel Plain Old C# Objects
 
@@ -11,7 +11,7 @@ The ValidatorBase class provided in the sample helps providing errors to the Gra
 For instance :
 
 ```csharp
-    public class Contact : **ValidatorBase**
+    public class Contact : ValidatorBase
     {
       [Required(ErrorMessage = " Name is required.")]
       [StringLength(50, ErrorMessage = "No more than 50 characters")]
