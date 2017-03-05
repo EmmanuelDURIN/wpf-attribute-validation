@@ -10,14 +10,15 @@ The ValidatorBase class provided in the sample helps providing errors to the Gra
 
 For instance :
 
-
+```csharp
     public class Contact : **ValidatorBase**
     {
-      **[Required(ErrorMessage = " Name is required.")]
+      [Required(ErrorMessage = " Name is required.")]
       [StringLength(50, ErrorMessage = "No more than 50 characters")]
-      [Display(Name = "Name")]**
+      [Display(Name = "Name")]
       public string Name { get; set; }
 	}
+```
 	
 	
 
