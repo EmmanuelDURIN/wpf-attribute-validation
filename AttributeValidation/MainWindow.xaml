@@ -45,5 +45,8 @@
 
         <Label Content="_Address :" Margin="3,2" Grid.Row="4" />
         <TextBox Text="{Binding Address, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Grid.Column="1" Grid.Row="4" />
-    </Grid>
+
+    <Label Content="Fee :" Margin="3,2" Grid.Row="5" />
+    <TextBox Text="{Binding Fee, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Grid.Column="1" Grid.Row="5" />
+  </Grid>
 </Window>
